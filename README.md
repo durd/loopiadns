@@ -19,6 +19,7 @@ Of course, make the python-script executable and add it to your crontab.
 
 `chmod +x loopiadns.py`
 
-```@reboot                                 root    /bin/sleep 160 ; /usr/local/etc/ipv6_he-dyndns >/dev/null 2>&1
-
-*/20       *       *       *       *       root    /usr/local/etc/ipv6_he-dyndns >/dev/null 2>&1```
+```
+@reboot                                 root    /bin/sleep 160 ; /usr/local/etc/ipv6_he-dyndns >/dev/null 2>&1
+*/20       *       *       *       *       root    /usr/local/etc/ipv6_he-dyndns >/dev/null 2>&1
+```
